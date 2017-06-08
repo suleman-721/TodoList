@@ -7,11 +7,11 @@ img{
 }
 .mainDiv{
    border:1px solid darkgray;
-    position:relative;
-    top: 46px;
-    left: 580px;
+    position:fixed;
+    top: 150px;
+     left: 26px;;
     background-color: #8F974C;
-    width:450px;
+    width:400px;
     height:450px;
     border-radius: 3px;
 }
@@ -20,8 +20,8 @@ img{
    
     position: relative;
     top: 26px;
-    left: 41px;
-    width: 400px;
+    left: 31px;
+    width: 380px;
     height: 58px;
     text-align: center;
     padding-top: 20px;
@@ -45,24 +45,23 @@ ol{
 li{
   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-weight: bold;
-/*color:#454545	;*/
 color:#222222;
     background-color:#D3C984;
     margin: 5px;
     height: 18px;
     border-radius: 2px;
-    /*border: 1px solid white;*/
-        width: 390px;
+   
+        width: 355px;
   
 }
 h1{
     color: #775A39;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    position: relative;
-     top: 57px;
-    left: 660px;
+    position: fixed;
+     top:48px;
+    left: 110px;
     font-size: 50px;
-    font-size: 50px;
+  
 
 }
 
