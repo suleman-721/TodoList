@@ -7,11 +7,12 @@ img{
 }
 .mainDiv{
    border:1px solid darkgray;
-    position:fixed;
-    top: 150px;
+    position:relative;
+     top: 138px;
      left: 26px;;
     background-color: #8F974C;
-    width:400px;
+    min-width:50px;
+      max-width: 335px;
     height:450px;
     border-radius: 3px;
 }
@@ -21,7 +22,7 @@ img{
     position: relative;
     top: 26px;
     left: 31px;
-    width: 380px;
+      max-width: 310px;
     height: 58px;
     text-align: center;
     padding-top: 20px;
@@ -32,7 +33,7 @@ img{
 input{
     background-color: #C9C9C9;
     height: 17px;
-    width: 180px;
+    max-width: 300px;
     border-radius: 5px;
 }
 div{
@@ -51,22 +52,38 @@ color:#222222;
     height: 18px;
     border-radius: 2px;
    
-        width: 355px;
-  
+          width: 291px;
 }
+  
+
 h1{
     color: #775A39;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     position: fixed;
-     top:48px;
-    left: 110px;
     font-size: 50px;
+    top: 28px;
+    left: 75px;
   
 
 }
 
 
 button{
+      position: relative;
+    top: 4px;
+    left: 2px;
+    width:90px;
+    height:22px;
+    border:1px solid #fff;
+    border-radius: 20px;
+    color:#fff;
+    background-color:#004B91;
+}
+
+.button2{
+      position: relative;
+    top: 27px;
+    left: -186px;
     width:90px;
     height:22px;
     border:1px solid #fff;
