@@ -8,7 +8,7 @@ img{
 .mainDiv{
    border:1px solid darkgray;
     position:relative;
-     top: 138px;
+         top: 2px;
      left: 26px;;
     background-color: #8F974C;
     min-width:50px;
@@ -59,7 +59,7 @@ color:#222222;
 h1{
     color: #775A39;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    position: fixed;
+    position: relative;
     font-size: 50px;
     top: 28px;
     left: 75px;
